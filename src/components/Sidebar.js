@@ -10,9 +10,6 @@ function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
   }
 
-  
-
-
 const Sidebar = () => {
 
     let [categories] = useState({
